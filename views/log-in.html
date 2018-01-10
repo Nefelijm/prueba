@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendors/Bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Ranga" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>LOG IN</title>
+</head>
+<body class="log-in-background">
+    <div class="container-fluid">
+        <div class="row deglu">
+            <div class="col-xs-12 col-md-12">
+                <img src="../assets/img/icon.jpg" alt="icon" class="log-in-logo center-block img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 hidden-sm hidden-md hidden-lg"> 
+                <form class="margin-form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Correo Electronico</label>
+                        <input type="email" class="form-control " id="email-log" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control " id="password-log" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-default center-block" id="register">INICIAR SECION</button>
+                    <div class="psw center">
+                        <a href="#"> Crear Cuenta</a>
+                    </div>
+                </form>
+            </div>          
+        </div>
+                                    <!-- vista en desktop -->
+        <div class="row hidden-xs">
+            <div class="col-md-4">
+                <img src="../assets/img/icon.jpg" alt="icon" class="logo-desktop center-block img-responsive">
+            </div>
+            <div class="col-md-8">
+                <form class="margin-desktop">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nombre:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Usuario:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Correo:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Confirmar Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="confirmar contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-default center-block">CREAR CUENTA</button>
+                    <div class="psw center">
+                        <a href="#">Iniciar Sesion</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/log-in.js"></script>
+</body>
+</html>

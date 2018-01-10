@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-deep_orange.min.css" />
+    <link rel="stylesheet" href="../vendors/Bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Ranga" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>login</title>
+</head>
+<body class="background">
+    <div class="container-fluid ">
+        <div class="row deglu">
+            <div class="col-xs-12 col-lg-12">
+                <img src="../assets/img/icon.jpg" alt="icon" class="logo-login center-block">
+            </div>
+        </div>
+    
+         <div class="row ">
+            <div class="col-xs-12 col-md-12 ">
+                <form  class="login-background center-block">
+                    <div class="form-group margin">
+                        <label for="exampleInputEmail1">Correo Electronico</label>
+                        <input type="email" class="form-control" id="textEmail" placeholder="Email">
+                    </div>
+                    <div class="form-group margin">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="textPassword" placeholder="Password">
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button" id="btnLogin">
+                        LOGIN
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button" id="btnSign">
+                        SIGN UP
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent logout hide" id="btnLogout">
+                        logout
+                    </button>
+                </form>
+            </div>
+         </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+/* Estilo para splash */
+.deglu{
+background-color:rgb(132, 175, 155); 
+}
+.logo{
+margin-top: 25%;
+}
+.chef{
+ margin-top: 15%;
+ height: 80px;
+ width: 15%;
+ display: inline-block;
+ margin-left: 3%;
+}
